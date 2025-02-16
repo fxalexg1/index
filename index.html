@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Mentorship - Sales Page</title>
+    <style>
+        /* Import Font */
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&display=swap');
+
+        /* Global Styles */
+        body {
+            background-color: #0D0F12;
+            color: white;
+            font-family: 'Lexend', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: #121417;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        .navbar .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .navbar ul li .active {
+            color: #3DB7E4;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://i.ibb.co/93W9L9B5/1209458-9635.jpg') center/cover no-repeat;
+            filter: brightness(40%);
+            z-index: -1;
+        }
+
+        .hero .highlight {
+            color: #3DB7E4;
+        }
+
+        .subtitle {
+            color: #A0A0A0;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        /* CTA Button */
+        .enroll-button {
+            display: inline-block;
+            background: linear-gradient(to right, #3DB7E4, #2980B9);
+            color: white;
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+
+        .enroll-button:hover {
+            transform: scale(1.05);
+        }
+
+        /* Benefits Section */
+        .benefits {
+            padding: 60px 20px;
+        }
+
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .benefit {
+            background: #1A1D21;
+            padding: 20px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        /* CTA Section */
+        .cta {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        /* Footer */
+        .footer {
+            background: #121417;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #A0A0A0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Tradewithalexander.com</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Best Prop Firms</a></li>
+            <li><a href="#">The Strategy</a></li>
+            <li><a href="#" class="active">Sales Page</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Your Battle-Tested Blueprint to<br><span class="highlight">$5K/Month Trading Success</span></h1>
+        <p class="subtitle">Get the mentorship, strategies, and community support to trade profitably in 2024—<br>even if you're new or have struggled before.</p>
+        <a href="#" class="enroll-button">ENROLL NOW & TRANSFORM YOUR TRADING</a>
+        <p class="students">🚀 Join 4,300+ traders who took control of their financial future!</p>
+    </header>
+
+    <section class="sales-copy">
+    <h2>Trading Feels Unpredictable… But It Doesn’t Have to Be</h2>
+    <p>Markets are a sea of opinions, emotions, and uncertainty. What looks like a perfect trade to one person is a disaster to another. That’s the problem—trading is subjective.</p>
+    <p>You’ve probably felt it. The hesitation, the doubt, the endless cycle of questioning your decisions. One day you win, the next you don’t know what went wrong.</p>
+    <p>But here’s the truth: Trading isn’t about opinions. It’s about a process.</p>
+    <p>Success doesn’t come from guessing—it comes from using a structured, proven system that removes the noise and gives you a clear edge.</p>
+    <p>That’s exactly what I offer. A systematic approach that turns uncertainty into confidence—so you can trade with clarity, not chaos.</p>
+</section>
+
+
+    <section class="benefits">
+        <h2>🔑 What You'll Get Inside This Mentorship</h2>
+        <div class="benefit-grid">
+            <div class="benefit">📊 A Step-by-Step Trading Blueprint</div>
+            <div class="benefit">🎯 1-on-1 Coaching to Fine-Tune Your Strategy</div>
+            <div class="benefit">📉 Risk Management Mastery</div>
+            <div class="benefit">💰 Prop Firm Funding Strategies</div>
+            <div class="benefit">🔥 Trading Psychology Hacks</div>
+            <div class="benefit">👥 Access to a Private Community of Elite Traders</div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>🚀 Are You Ready to Finally Win in the Markets?</h2>
+        <p>This isn't just another trading course. It's a transformation. A direct roadmap to becoming a consistent, profitable trader.</p>
+        <a href="#" class="enroll-button">JOIN NOW & START TRADING LIKE A PRO</a>
+        <p class="guarantee">🛡️ 14-Day Money-Back Guarantee – No Risk, Just Rewards!</p>
+    </section>
+
+    <footer class="footer">
+        © 2024 Trading Mentorship. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
